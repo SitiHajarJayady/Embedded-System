@@ -128,6 +128,34 @@ Step = 10 micro seconds
 Delay = 20 micro seconds
 
 
+EXAMPLE 12:
+
+Rotating a stepper motor in the clockwise direction at rate of 200 steps/s 
+Using wave drive mode
+
+EXAMPLE 13:
+
+Rotating a stepper motor in the counterclockwise direction at a rate of 500 steps/s
+Using wave drive mode
+
+EXAMPLE 14:
+
+Rotating a stepper motor in the clockwise direction at a rate of 500 steps/s
+Using full drive mode
+
+
+EXAMPLE 15:
+
+Rotating a stepper motor in the counterclockwise direction at a rate of 250 steps/s
+Using half-step drive mode
+
+EXAMPLE 16:
+
+Connecting 2 stepper motors to PORTB(0-3) and PORTD(0-3)
+
+Stepper motor 1 : rotating clockwise at rate of 500 steps/s using full-step drive mode
+
+Stepper motor 2: rotating counterclockwise at rate of 500 steps/s using half-step drive mode
 
 
 
