@@ -38,9 +38,13 @@ EXAMPLE 7:
 Connecting 4 DC motors at PB0, PB1, PB2 and PB3
 Using DCMotor class to operate the motors with PWM frequency of 1000 Hz
 Duty cycle for each DC motor:
+
 at PB0 = 20%
+
 at PB1= 40%
+
 at PB2= 60%
+
 at PB3= 80%
 
 EXAMPLE 9:
@@ -53,11 +57,77 @@ Setting pulse width of 1.5 ms ; assuming the servo require 1.5 ms to rotate abou
 EXAMPLE 10:
 
 Rotating servo back and forth (sweeping) ; connected to PB0
+
 where:
+
 Minimum pulse width = 544us
+
 Maximum pulse width = 2400us
-Step size = 10us.
+
+Step size = 10us
+
 Delay = 25ms
+
+
+
+EXAMPLE 11:
+
+Connecting 4 servo motors at PB0, PB1, PB2 and PB3
+
+where servos
+
+at PB0
+
+Period of control signal = 20 000 micro seconds
+
+Starting pulse width = 500 micro seconds
+
+Ending width pulse = 2000 micro seconds
+
+Step = 10 micro seconds
+
+Delay = 15 micro seconds
+
+
+at PB1
+
+Period of control signal = 20 000 micro seconds
+
+Starting pulse width = 500 micro seconds
+
+Ending width pulse = 2000 micro seconds
+
+Step = 10 micro seconds
+
+Delay = 20 micro seconds 
+
+
+at PB2
+
+Period of control signal = 20 000 micro seconds
+
+Starting pulse width = 800 micro seconds
+
+Ending width pulse = 1500 micro seconds
+
+Step = 10 micro seconds
+
+Delay = 15 micro seconds
+
+
+at PB3
+
+Period of control signal = 20 000 micro seconds
+
+Starting pulse width = 800 micro seconds
+
+Ending width pulse = 1500 micro seconds
+
+Step = 10 micro seconds
+
+Delay = 20 micro seconds
+
+
 
 
 
