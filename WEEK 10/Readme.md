@@ -76,7 +76,7 @@ Connecting 4 servo motors at PB0, PB1, PB2 and PB3
 
 where servos
 
-at PB0
+at PB0:
 
 Period of control signal = 20 000 micro seconds
 
@@ -89,7 +89,7 @@ Step = 10 micro seconds
 Delay = 15 micro seconds
 
 
-at PB1
+at PB1:
 
 Period of control signal = 20 000 micro seconds
 
@@ -102,7 +102,7 @@ Step = 10 micro seconds
 Delay = 20 micro seconds 
 
 
-at PB2
+at PB2:
 
 Period of control signal = 20 000 micro seconds
 
@@ -115,7 +115,7 @@ Step = 10 micro seconds
 Delay = 15 micro seconds
 
 
-at PB3
+at PB3:
 
 Period of control signal = 20 000 micro seconds
 
